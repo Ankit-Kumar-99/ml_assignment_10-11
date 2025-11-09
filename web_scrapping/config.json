@@ -1,0 +1,18 @@
+{
+    "base_url": "https://stackoverflow.com/questions",
+    "output_folder": "data",
+    "raw_file": "raw_data.json",
+    "clean_file": "cleaned_data.csv",
+    "unclean_file": "uncleaned_data.csv",
+  
+    "scrape_pages": 5,
+    "sleep_between_questions": [2, 5],
+    "sleep_between_pages": [5, 10],
+  
+    "min_answer_length": 15,
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+    }
+    
+  }
+  

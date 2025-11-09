@@ -1,0 +1,12 @@
+# Core libraries
+pandas>=2.0.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+openai>=1.3.0
+
+# Optional: data manipulation & utilities
+numpy>=1.26.0
+
+# BeautifulSoup only if you plan to reuse scraper parts here
+beautifulsoup4>=4.12.2
+datasets
